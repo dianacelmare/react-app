@@ -1,0 +1,9 @@
+.form-row,
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  gap: 16px;
+}
