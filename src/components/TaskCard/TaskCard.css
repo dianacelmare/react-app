@@ -27,15 +27,7 @@ p {
   font-size: 14px;
 }
 
-.status {
-  color: #808080;
-  background-color: #f2f2f2;
-  padding: 10px;
-  border-radius: 12px;
-  font-size: 12px;
-  line-height: 14px;
-  font-weight: 700;
-}
+
 
 .taskFooter {
   display: flex;

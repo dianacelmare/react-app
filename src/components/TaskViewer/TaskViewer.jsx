@@ -8,23 +8,25 @@ const TaskViewer = (props) => {
   return (
     <>
       <div className="viewer-container">
-        <ControlPanel addTask={props.addTask}/>
-        {
-          props.dataFields.length>0 ? ( //conditionala
+        <ControlPanel addTask={props.addTask} />
 
-        <div className="cards-container">
-          {props.dataFields.map((item, index) => (
-            <TaskCard
-              key={index}
-              id={item.id}
-              status={item.status}
-              description={item.description}
-              dueDate={item.dueDate}
-            />
-          ))}
-        </div> 
-        
-        ) : (<EmptyListMessage/>)}
+        {props.dataFields.length > 0 ? ( //conditionala
+          <div className="cards-container">
+            {props.dataFields.map((item, index) => (
+              <TaskCard
+                key={index}
+                id={item.id}
+                status={item.status}
+                
+                description={item.description}
+                dueDate={item.dueDate}
+              />
+            ))}
+          </div>
+        ) : (
+          <EmptyListMessage />
+        )}
+
       </div>
     </>
   );

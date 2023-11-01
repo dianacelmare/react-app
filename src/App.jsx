@@ -15,7 +15,7 @@ const App = () => {
     },
     {
       id: "T-2",
-      status: "Complete",
+      status: "Completed",
       description: "Design System for Enum Workspace",
       dueDate: new Date(2025, 5, 24),
     },
@@ -27,7 +27,7 @@ const App = () => {
     },
     {
       id: "T-4",
-      status: "In progress",
+      status: "Pending",
       description: "Something - Enum Workspace",
       dueDate: new Date(2023, 8, 24),
     },

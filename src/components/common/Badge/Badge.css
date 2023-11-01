@@ -1,0 +1,22 @@
+.status {
+  color: #808080;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 700;
+}
+
+.grey{
+    color: #808080;
+}
+.orange{
+    color: rgb(254, 156, 0);
+}
+.green{
+    color:rgb(50, 158, 50);
+}
+.blue{
+    color: rgb(77, 77, 198);
+}
