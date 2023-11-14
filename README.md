@@ -1,6 +1,6 @@
 # Task Manager App
 
-Made utilizing React
+Made utilizing React, with the following
 [Design](https://www.figma.com/file/04L1wcqOHZHW2cSVk5z0MP/Untitled?type=design&node-id=0-1&mode=design&t=2Fp1jouymbxVSOxr-0)
 
 # Getting Started with Create React App
